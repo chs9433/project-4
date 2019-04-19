@@ -15,5 +15,4 @@ Route::get('/', 'AppController@index');
 Route::get('/form/create/project', 'AppController@create');
 Route::get('/form/load/project', 'AppController@load');
 Route::get('/form/load/pm-tools', 'AppController@loadPMTools');
-
 Route::post('/app/action/create', 'AppController@processProjectCreationRequest');
