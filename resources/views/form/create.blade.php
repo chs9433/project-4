@@ -14,13 +14,13 @@
 <div class="wrapper">
    <div class="content" style="color:white;margin:auto;padding:10px;">
       <!-- form -->
-        <form id="form-new-project" name="form-new-project" class="form container" method="POST" action="/project/create" enctype="multipart/form-data" style="margin:auto;margin-top:0;top:0px;">
+        <form id="form-new-project" name="form-new-project" class="form container" method="POST" action="/app/action/create" enctype="multipart/form-data" style="margin:auto;margin-top:0;top:0px;">
             <h3><u><b>New Project Form</b></u></h3><br>
             {{ csrf_field() }}
             <div class="form-row">
               <div class="form-group col-sm-12 col-md-12">
                 <label for="varProjectName"><b>Project Name</b></label>
-                <input type="text" class="form-control" id="varProjectName" name="varProjectName"  placeholder="1234 Sesame Street" value="{{ old('varProjectName') }}">
+                <input type="text" class="form-control" id="varProjectName" name="varProjectName"  value="{{ old('varProjectName') }}">
                 <span class="dwa15-help-text"><small>Required</small></span>
               </div>
           </div>

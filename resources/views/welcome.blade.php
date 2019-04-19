@@ -12,7 +12,6 @@
 <div class="wrapper">
    <div class="content">
       <!-- card -->
-
       <div class="card">
          <a href="/form/create/project" style="none">
             <div class="icon"><i class="fas fa-plus-circle fa-2x"></i></div>
@@ -20,7 +19,6 @@
             <p class="text">Click to create a new project.</p>
         </a>
       </div>
-
       <!-- end card -->
       <!-- card -->
       <div class="card">
@@ -40,4 +38,8 @@
       <!-- end card -->
    </div>
 </div>
+@endsection
+
+@section('alerts')
+<div class="container"><em>{{ $alert }}</em></div>
 @endsection

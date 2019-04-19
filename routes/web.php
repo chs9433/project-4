@@ -16,7 +16,7 @@ Route::get('/form/create/project', 'AppController@create');
 Route::get('/form/load/project', 'AppController@load');
 Route::get('/form/load/pm-tools', 'AppController@loadPMTools');
 
-Route::post('/project/create', 'AppController@create');
+Route::post('/app/action/create', 'AppController@processProjectCreationRequest');
 Route::get('/debug', function () {
 
     $debug = [
