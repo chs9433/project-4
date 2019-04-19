@@ -33,8 +33,6 @@ public function processProjectCreationRequest(REQUEST $request,$title='PM Tool',
     $arr = array('project_name'=>$request['varProjectName'],'project_sponsor'=>$request['varProjectSponsor']);
 
     #Validate Data
-
-
     $alert=json_encode($arr,JSON_PRETTY_PRINT);
     return view('welcome')->with(['title'=>$title,'alert'=>$alert]);
 }
