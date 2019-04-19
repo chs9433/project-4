@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "52bfabf36cb9943a333b2d9bcc020e59",
+    "content-hash": "aa7cf24799ebeb313c75d3185eabb333",
     "packages": [
         {
             "name": "adldap2/adldap2",
@@ -65,7 +65,7 @@
         },
         {
             "name": "adldap2/adldap2-laravel",
-            "version": "v6.0.5",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Adldap2/Adldap2-Laravel.git",
@@ -273,7 +273,7 @@
         },
         {
             "name": "dompdf/dompdf",
-            "version": "v0.8.3",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dompdf/dompdf.git",
@@ -1561,7 +1561,7 @@
         },
         {
             "name": "phpoffice/phppresentation",
-            "version": "0.9.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHPOffice/PHPPresentation.git",
@@ -1630,7 +1630,7 @@
         },
         {
             "name": "phpoffice/phpproject",
-            "version": "0.2.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHPOffice/PHPProject.git",
@@ -1689,16 +1689,16 @@
         },
         {
             "name": "phpoffice/phpspreadsheet",
-            "version": "1.6.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHPOffice/PhpSpreadsheet.git",
-                "reference": "bf00f0cc5f55c354018f9a9ef15e6e3e1a229051"
+                "reference": "170671c616bfb31cf1684e95583e2749d3823cee"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHPOffice/PhpSpreadsheet/zipball/bf00f0cc5f55c354018f9a9ef15e6e3e1a229051",
-                "reference": "bf00f0cc5f55c354018f9a9ef15e6e3e1a229051",
+                "url": "https://api.github.com/repos/PHPOffice/PhpSpreadsheet/zipball/170671c616bfb31cf1684e95583e2749d3823cee",
+                "reference": "170671c616bfb31cf1684e95583e2749d3823cee",
                 "shasum": ""
             },
             "require": {
@@ -1779,7 +1779,7 @@
                 "xls",
                 "xlsx"
             ],
-            "time": "2019-01-02T04:42:54+00:00"
+            "time": "2019-04-15T20:49:51+00:00"
         },
         {
             "name": "phpoffice/phpvisio",
@@ -1832,7 +1832,7 @@
         },
         {
             "name": "phpoffice/phpword",
-            "version": "0.16.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHPOffice/PHPWord.git",
@@ -5561,7 +5561,13 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "phpoffice/phpvisio": 20
+        "adldap2/adldap2-laravel": 20,
+        "dompdf/dompdf": 20,
+        "phpoffice/phppresentation": 20,
+        "phpoffice/phpproject": 20,
+        "phpoffice/phpspreadsheet": 20,
+        "phpoffice/phpvisio": 20,
+        "phpoffice/phpword": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
