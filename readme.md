@@ -5,6 +5,7 @@
 ## Outside resources
 + Bootstrap 4.3.1 (CSS):<https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css>
 + Font Awesome 5.8.1 (CSS) <https://use.fontawesome.com/releases/v5.8.1/css/all.css>
++ CSS Info Cards - Hover (Pen by Rafaela Lucas) <https://codepen.io/rafaelavlucas/pen/rQWJYG>
 
 ## 3 Unique inputs
 1. *Text* to indicate street address

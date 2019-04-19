@@ -1,99 +1,43 @@
-<!doctype html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+@extends('layouts.master')
 
-        <title>Laravel</title>
+@section('title')
+    {{ $title }}
+@endsection
 
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
+@section('head')
+    {{-- Page specific CSS includes should be defined here; this .css file does not exist yet, but we can create it --}}
+@endsection
 
-        <!-- Styles -->
-        <style>
-            html, body {
-                background-color: #fff;
-                color: #636b6f;
-                font-family: 'Nunito', sans-serif;
-                font-weight: 200;
-                height: 100vh;
-                margin: 0;
-            }
+@section('content')
+<div class="wrapper">
+   <div class="content">
+      <!-- card -->
 
-            .full-height {
-                height: 100vh;
-            }
+      <div class="card">
+         <a href="/form/create/project" style="none">
+            <div class="icon"><i class="fas fa-plus-circle fa-2x"></i></div>
+            <p class="title">New Project</p>
+            <p class="text">Click to create a new project.</p>
+        </a>
+      </div>
 
-            .flex-center {
-                align-items: center;
-                display: flex;
-                justify-content: center;
-            }
-
-            .position-ref {
-                position: relative;
-            }
-
-            .top-right {
-                position: absolute;
-                right: 10px;
-                top: 18px;
-            }
-
-            .content {
-                text-align: center;
-            }
-
-            .title {
-                font-size: 84px;
-            }
-
-            .links > a {
-                color: #636b6f;
-                padding: 0 25px;
-                font-size: 13px;
-                font-weight: 600;
-                letter-spacing: .1rem;
-                text-decoration: none;
-                text-transform: uppercase;
-            }
-
-            .m-b-md {
-                margin-bottom: 30px;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    @auth
-                        <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ route('login') }}">Login</a>
-
-                        @if (Route::has('register'))
-                            <a href="{{ route('register') }}">Register</a>
-                        @endif
-                    @endauth
-                </div>
-            @endif
-
-            <div class="content">
-                <div class="title m-b-md">
-                    Laravel
-                </div>
-
-                <div class="links">
-                    <a href="https://laravel.com/docs">Docs</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://blog.laravel.com">Blog</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
-                </div>
-            </div>
-        </div>
-    </body>
-</html>
+      <!-- end card -->
+      <!-- card -->
+      <div class="card">
+           <a href="/form/load/project" style="none">
+            <div class="icon"><i class="fas fa-folder-open fa-2x"></i></div>
+            <p class="title">Load Project</p>
+            <p class="text">Click to see or edit an existing project.</p>
+      </div>
+      <!-- end card -->
+      <!-- card -->
+      <div class="card">
+           <a href="/form/load/pm-tools" style="none">
+            <div class="icon"><i class="fas fa-toolbox fa-2x"></i></div>
+            <p class="title">PM Tools</p>
+            <p class="text">Click to view various Project Management tools.</p>
+      </div>
+      <!-- end card -->
+   </div>
+</div>
+@endsection
