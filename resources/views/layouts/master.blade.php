@@ -29,13 +29,6 @@
 </section>
 
 
-<footer class="text-muted" style="border-top:2px solid white;">
-  <div class="container-fluid">
-      <a href="http://project-4.loc" style="color:white;float:left;">&copy; {{ date('Y')}} HQ Network Operations & Support</a>
-      <a href="http://project-4.loc" style="color:white;float:right;"><i class="fas fa-home fa-lg"></i></a>
-  </div>
-</footer>
-
 {{-- Javascript Libraries --}}
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
