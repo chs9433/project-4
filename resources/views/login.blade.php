@@ -15,19 +15,19 @@
   <body>
      <div class="container-fluid">
     <form class="form-signin">
-      <div class="text-center mb-1">
-        <img class="mb-4" src="/images/app-icons/vAudit-Logo-Text.png" alt="" width="250" height="200">
-        <p><i>Enter your Username (USWIN ID) and Password</i></p>
+      <div class="text-center mb-2">
+        <img class="mb-4" src="/images/app-icons/vAudit-Logo-Text.png" alt="" width="250" height="200" />
+
       </div>
 
       <div class="form-label-group mb-2">
-        <input type="text" id="uswin" name="uswin" class="form-control" style="font-size:12px" required autofocus>
-        <label for="uswin" >uswin</label>
+        <input type="text" id="uswin" name="uswin" class="form-control"  required autofocus>
+        <label for="uswin" >USWIN ID</label>
       </div>
 
       <div class="form-label-group mb-2">
-        <input type="password" id="password" name="password" class="form-control" style="font-size:12px" required>
-        <label for="password">password</label>
+        <input type="password" id="password" name="password" class="form-control" required>
+        <label for="password">Password</label>
       </div>
 
       <button class="btn btn-lg btn-danger btn-block" type="submit">Sign In</button>
