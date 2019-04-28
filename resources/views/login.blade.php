@@ -15,29 +15,23 @@
   <body>
      <div class="container-fluid">
     <form class="form-signin">
-      <div class="text-center mb-4">
-        <img class="mb-4" src="#" alt="" width="72" height="72">
-        <h1 class="h3 mb-3 font-weight-normal">vAudit</h1>
-        <p>Build form controls with floating labels via the <code>:placeholder-shown</code> pseudo-element. <a href="https://caniuse.com/#feat=css-placeholder-shown">Works in latest Chrome, Safari, and Firefox.</a></p>
+      <div class="text-center mb-1">
+        <img class="mb-4" src="/images/app-icons/vAudit-Logo-Text.png" alt="" width="250" height="200">
+        <p><i>Enter your Username (USWIN ID) and Password</i></p>
       </div>
 
-      <div class="form-label-group">
-        <input type="text" id="uswin" class="form-control" placeholder="uswin" required autofocus>
-        <label for="uswin">USWIN</label>
+      <div class="form-label-group mb-2">
+        <input type="text" id="uswin" name="uswin" class="form-control" style="font-size:12px" required autofocus>
+        <label for="uswin" >uswin</label>
       </div>
 
-      <div class="form-label-group">
-        <input type="password" id="password" class="form-control" placeholder="Password" required>
-        <label for="password">Password</label>
+      <div class="form-label-group mb-2">
+        <input type="password" id="password" name="password" class="form-control" style="font-size:12px" required>
+        <label for="password">password</label>
       </div>
 
-      <div class="checkbox mb-3">
-        <label>
-          <input type="checkbox" value="remember-me"> Remember me
-        </label>
-      </div>
-      <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
-      <p class="mt-5 mb-3 text-muted text-center">&copy; {{ date('Y'). 'HQ Network Regulatory & Compliance'}}</p>
+      <button class="btn btn-lg btn-danger btn-block" type="submit">Sign In</button>
+      <p class="mt-5 mb-3 text-muted text-center">&copy; {{ date('Y'). ' Verizon'}}</p>
     </form>
 </div>
   </body>
