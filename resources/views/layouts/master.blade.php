@@ -5,7 +5,8 @@
     <meta charset='utf-8'>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href='/css/pm.css' rel='stylesheet'>
+    <link href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" rel="stylesheet">
+    <link href='/css/vaudit.css' rel='stylesheet'>
     @yield('head')
 </head>
 <body>
@@ -14,7 +15,7 @@
         <div class="container-fluid d-flex justify-content-between">
           <a href="#" class="navbar-brand d-flex align-items-center" style="margin:auto 0; padding:2px;">
             <i class="fas fa-project-diagram" style="margin:auto;margin-right:5px;"></i>
-            <h5><strong>Project Management Tool</strong></h5>
+            <h5><strong>vAudit</strong></h5>
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
